@@ -118,8 +118,8 @@ require = function e(c, t, n) {
                         case cc.KEY.s:
                             n = cc.moveTo(.5, r.x, r.y - 32),
                             a = cc.moveTo(.5, i.x, i.y - 32),
-                            o = cc.moveBy(1, 0, 32),
-                            e.node.runAction(cc.moveBy(.5, 0, -32)),
+                            o = cc.moveBy(1, 0, -32),
+                            e.node.runAction(cc.moveBy(.5, 0, 32)),
                             e.playerJS.walk(),
                             p.play("walk"),
                             s.play("walk");
