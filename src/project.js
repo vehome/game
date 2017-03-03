@@ -142,7 +142,7 @@ require = function e(c, t, n) {
                             p.play("walk"),
                             s.play("walk");
                             break;
-                        case cc.KEY.space:
+                        case cc.KEY.f:
                             n = cc.moveBy(1, 0, 0),
                             a = cc.moveBy(1, 0, 0),
                             o = cc.moveBy(1, 0, 0),
