@@ -155,7 +155,7 @@ require = function e(c, t, n) {
                             e.playerJS.stopAllActions()
                         }))),
                         i.runAction(cc.sequence(a, cc.callFunc(function() {
-                            p.play("stand")
+                            p.play("attack")
                         }))),
                         l.runAction(cc.sequence(o, cc.callFunc(function() {
                             s.play("stand")
