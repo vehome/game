@@ -143,8 +143,8 @@ require = function e(c, t, n) {
                             s.play("walk");
                             break;
                         case cc.KEY.f:
-                            n = cc.moveBy(1, 0, 0),
-                            a = cc.moveBy(1, 0, 0),
+                            n = cc.moveTo(1,r.x, r.y),
+                            a = cc.moveTo(1,i.x, i.y),
                             o = cc.moveBy(1, 0, 0),
                             e.playerJS.attack(),
                             p.play("attack"),
