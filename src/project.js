@@ -147,8 +147,8 @@ require = function e(c, t, n) {
                             a = cc.moveTo(1,i.x, i.y),
                             o = cc.moveBy(1, 0, 0),
                             e.playerJS.attack(),
-                            p.play("attack"),
-                            s.play("attack");
+                            p.play("walk"),
+                            s.play("walk");
                             break;
                         }
                         r.runAction(cc.sequence(n, cc.callFunc(function() {
