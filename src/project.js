@@ -142,7 +142,7 @@ require = function e(c, t, n) {
                             p.play("walk"),
                             s.play("walk");
                             break;
-                        case cc.KEY.f:
+                        case cc.KEY.space:
                             n = cc.moveTo(1,r.x, r.y),
                             a = cc.moveTo(1,i.x, i.y),
                             o = cc.moveBy(1, 0, 0),
@@ -155,7 +155,7 @@ require = function e(c, t, n) {
                             e.playerJS.stopAllActions()
                         }))),
                         i.runAction(cc.sequence(a, cc.callFunc(function() {
-                            p.play("attack")
+                            p.play("stand")
                         }))),
                         l.runAction(cc.sequence(o, cc.callFunc(function() {
                             s.play("stand")
